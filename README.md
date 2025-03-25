@@ -27,38 +27,6 @@ A dynamic, interactive quiz application built with React and TypeScript that tes
 - Node.js (v14 or higher)
 - npm or yarn
 
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/quiz-app.git
-```
-
-2. Navigate to the project directory
-```bash
-cd quiz-app
-```
-
-3. Install dependencies
-```bash
-npm install
-```
-
-4. Start the development server
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173`
-
-### Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
 ## Project Structure
 
 ```
@@ -80,11 +48,6 @@ quiz-app/
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Quiz questions sourced from web development fundamentals

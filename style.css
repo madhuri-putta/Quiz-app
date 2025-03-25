@@ -1,0 +1,122 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #10caef;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Added to arrange login and quiz vertically */
+}
+
+.login-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Added margin for spacing */
+    display: flex; /* Added flexbox to arrange items vertically */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.login-container input, .login-container button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    display: none; /* Initially hidden */
+}
+
+/* ... (rest of the quiz-related CSS remains the same) ... */
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 20px; /* Added padding to make it bigger */
+    border: 1px solid #ddd; /* Added a border for visual clarity */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Added a light background */
+    text-align: left; /* Aligned the text to the left for better readability */
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.option:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.timer {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+
+.result {
+    font-size: 1.5em;
+    color: #4caf50;
+}
+
+.restart-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.restart-btn:hover {
+    background-color: #0056b3;
+}

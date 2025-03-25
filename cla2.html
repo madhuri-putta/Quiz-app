@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Enter Your Details</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button id="start-quiz">Start Quiz</button>
+    </div>
+    <div class="quiz-container" style="display: none;">
+        <div class="timer">Time Left: <span id="time">30</span>s</div>
+        <div class="question">Question will appear here</div>
+        <div class="options"></div>
+        <div class="result" style="display: none;">Your score: <span id="score">0</span></div>
+        <button class="restart-btn" style="display: none;">Restart Quiz</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
